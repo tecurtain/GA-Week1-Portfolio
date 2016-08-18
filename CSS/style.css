@@ -1,0 +1,70 @@
+.clearfix {
+  overflow: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+  font-family: sans-serif;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  margin-left: 17%;
+  margin-right: 17%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1{
+  text-align: center;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: serif;
+  font-size: 18px;
+}
+.italics {
+  font-style: italic;
+}
+
+.workimage {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.profilepicture {
+  width: 150px;
+  float: right;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  padding: 4px;
+}
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+a:active {
+    color: black;
+    text-decoration: italic;
+}
